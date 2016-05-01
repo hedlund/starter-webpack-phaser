@@ -8,7 +8,7 @@ class Loader extends State {
     preload() {
         // Setup the preloader sprite
         this.loadbar = this.add.sprite(this.world.centerX, this.world.centerY, 'loadbar');
-		this.loadbar.anchor.set(0.5);
+        this.loadbar.anchor.set(0.5);
         this.load.setPreloadSprite(this.loadbar);
 
         // Load the actual game assets

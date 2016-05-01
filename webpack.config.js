@@ -67,7 +67,7 @@ module.exports = {
                 include: [PATHS.src, PATHS.p2]
             },
             {
-                test: /pixi\.js/,
+                test: /pixi\.js$/,
                 loader: 'expose?PIXI'
             },
             {
@@ -75,7 +75,7 @@ module.exports = {
                 loader: 'expose?Phaser'
             },
             {
-                test: /p2\.js/,
+                test: /p2\.js$/,
                 loader: 'expose?p2'
             }
         ]

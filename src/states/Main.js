@@ -19,9 +19,9 @@ class Main extends State {
         sprite.filters = [ this.filter ];
 
         // Display the Phaser logo
-		const logo = this.add.sprite(this.world.centerX, this.world.centerY, 'phaser');
-		logo.anchor.set(0.5);
-	}
+        const logo = this.add.sprite(this.world.centerX, this.world.centerY, 'phaser');
+        logo.anchor.set(0.5);
+    }
 
     update() {
         this.filter.update();
